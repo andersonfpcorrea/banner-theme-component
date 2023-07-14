@@ -1,5 +1,6 @@
 {
   "name": "Simple top banner",
+  "component": true,
   "about_url": "Theme about url",
   "license_url": "Theme license url"
 }
