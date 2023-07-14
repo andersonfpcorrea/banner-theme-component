@@ -1,14 +1,10 @@
-.hello-world-banner {
-  height: 300px;
-  width: 100%;
-  background: red;
+.simple-top-banner {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 1em;
-}
-
-.hello-world {
-  font-size: 8em;
-  color: white;
+  background: rgb(191, 214, 51);
+  width: 100%;
+  position: sticky;
+  font-style: italic;
+  padding: 1rem 2rem;
 }
