@@ -24,4 +24,5 @@
 
 4 - Edit the text and the link to be rendered in the banner, and also its background color. Select the themes in which the banner should be included
 
-![Captura de tela 2023-07-15 113945](https://github.com/andersonfpcorrea/banner-theme-component/assets/92505216/2c60464d-4fa0-4441-b830-24e8fcaa3d14)
+![image](https://github.com/andersonfpcorrea/banner-theme-component/assets/92505216/9fcb2a7a-abff-4187-8ac1-75e81c9f3a1e)
+
