@@ -23,5 +23,3 @@
 3 - In the components list, click on `Simple top banner`
 
 4 - Edit the text and the link to be rendered in the banner. Select the themes in which the banner should be included
-
-![Alt text](image-1.png)
