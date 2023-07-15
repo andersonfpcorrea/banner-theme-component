@@ -1,5 +1,8 @@
 # Simple Top Banner (Discourse Theme Component)
 
+![Captura de tela 2023-07-15 115821](https://github.com/andersonfpcorrea/banner-theme-component/assets/92505216/97b87301-d16b-4fe4-bb73-f12f5984fd05)
+
+
 ## How to install
 
 1 - Go to `your-website.com/admin/customize/themes/`
