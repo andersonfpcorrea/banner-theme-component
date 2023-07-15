@@ -1,4 +1,22 @@
-<script defer>
+<!-- <script type="text/discourse-plugin" version="0.8.13"> -->
+<script>
+  const simpleTopBanner = document.querySelector("div.simple-top-banner");
+  const simpleTopBannerCloseBtn = document.querySelector(
+    "#simple-top-banner__close-btn"
+  );
+  const simpleTopBannerLink = document.querySelector(
+    "#simple-top-banner__link"
+  );
+
+  simpleTopBannerCloseBtn.addEventListener("click", () => {
+    simpleTopBanner.remove();
+  });
+
+  simpleTopBannerLink.textContent = settings.text;
+  simpleTopBanner.setAttribute("href", settings.link);
+</script>
+
+<!-- <script defer>
   const simpleTopBanner = document.querySelector("div.simple-top-banner");
   const simpleTopBannerCloseBtn = document.querySelector(
     "#simple-top-banner__close-btn"
@@ -7,3 +25,4 @@
     simpleTopBanner.remove();
   });
 </script>
+ -->
