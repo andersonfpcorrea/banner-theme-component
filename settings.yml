@@ -1,6 +1,6 @@
 text: ""
 fontSize:
-  default: "0.8rem"
+  default: "0.9rem"
   description: "Add a valid CSS value (eg.: 1rem, 10px etc)"
 fontStyle:
   default: normal
