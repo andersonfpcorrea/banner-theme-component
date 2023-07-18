@@ -1,3 +1,20 @@
 text: ""
+fontStyle:
+  default: normal
+  type: enum
+  choices:
+    - italic
+    - normal
+fontWeight:
+  default: 700
+  type: enum
+  choices:
+    - 400
+    - 500
+    - 600
+    - 700
 link: ""
 bgColor: ""
+bannerHeight:
+  default: "2.4rem"
+  description: "Add a valid CSS value (eg.: 1rem, 10px etc)"

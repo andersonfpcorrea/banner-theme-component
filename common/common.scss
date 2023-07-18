@@ -5,9 +5,9 @@
   background: $bgColor;
   width: 100%;
   position: sticky;
-  font-style: italic;
-  font-weight: 700;
-  min-height: 2.4rem;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  min-height: $bannerHeight;
 
   a {
     text-decoration: none;
