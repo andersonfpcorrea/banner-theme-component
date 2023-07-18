@@ -8,6 +8,8 @@
   font-style: $fontStyle;
   font-weight: $fontWeight;
   min-height: $bannerHeight;
+  padding: 0 0.5rem;
+  font-size: $fontSize;
 
   a {
     text-decoration: none;
