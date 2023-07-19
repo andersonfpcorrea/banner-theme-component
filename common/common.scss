@@ -1,12 +1,12 @@
 #simple-top-banner-wrapper {
   background: $bgColor;
+  width: 100vw;
 }
 
 .simple-top-banner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100vw;
   position: sticky;
   font-style: $fontStyle;
   font-weight: $fontWeight;
