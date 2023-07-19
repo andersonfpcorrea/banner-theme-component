@@ -1,6 +1,10 @@
 #simple-top-banner-wrapper {
-  background: $bgColor;
   width: 100vw;
+}
+
+#simple-top-banner-wrapper,
+#simple-top-banner-wrapper div.wrap {
+  background: $bgColor;
 }
 
 .simple-top-banner {
