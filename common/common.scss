@@ -1,3 +1,8 @@
+#simple-top-banner-wrapper {
+  background: $bgColor;
+  width: 100vw;
+}
+
 .simple-top-banner {
   display: flex;
   justify-content: space-around;
@@ -5,9 +10,8 @@
   position: sticky;
   font-style: $fontStyle;
   font-weight: $fontWeight;
-  background: $bgColor;
-  width: 100vw;
   min-height: $bannerHeight;
+  width: 100%;
   font-size: $fontSize;
   gap: 0.5rem;
 
