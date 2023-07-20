@@ -34,6 +34,10 @@
 
   #simple-top-banner__close-btn:hover {
     transform: scale(1.1);
-    box-shadow: 0 1px 1px 1px black;
+    transform: translateY(-50%);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }
