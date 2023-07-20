@@ -1,5 +1,6 @@
 #simple-top-banner {
   display: grid;
+  position: sticky;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
