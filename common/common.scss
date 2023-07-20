@@ -1,13 +1,9 @@
-#simple-top-banner-wrapper {
+#simple-top-banner {
+  background-color: $bgColor;
   width: 100vw;
 }
 
-#simple-top-banner-wrapper,
-#simple-top-banner-wrapper .wrap {
-  background-color: $bgColor;
-}
-
-.simple-top-banner {
+#simple-top-banner-inner-wrap {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,7 +11,6 @@
   font-style: $fontStyle;
   font-weight: $fontWeight;
   min-height: $bannerHeight;
-  width: 100%;
   font-size: $fontSize;
   gap: 0.5rem;
 

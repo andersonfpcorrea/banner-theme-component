@@ -1,14 +1,25 @@
 <script type="text/discourse-plugin" version="0.8.13">
-  const simpleTopBanner = document.querySelector("div.simple-top-banner");
+  const simpleTopBanner = document.querySelector("#simple-top-banner");
+  const simpleTopBannerInnerWrap = document.querySelector("#simple-top-banner-inner-wrap");
   const simpleTopBannerCloseBtn = document.querySelector(
     "#simple-top-banner__close-btn"
   );
   const simpleTopBannerLink = document.querySelector(
     "#simple-top-banner__link"
   );
+  const discourseMainOutletWrapper = document.querySelector("#main-outlet-wrapper");
+
+
+  function reziseWidth() {
+    simpleTopBannerInnerWrap.style.width = discourseMainOutletWrapper.style.width
+  }
+
+  const resizeObserver = new ResizeObserver(reziseWidth);
+  resizeObserver.observe(discourseMainOutletWrapper);
 
   simpleTopBannerCloseBtn.addEventListener("click", () => {
     simpleTopBanner.remove();
+    resizeObserver.disconnect()
   });
 
   simpleTopBannerLink.textContent = settings.text;
