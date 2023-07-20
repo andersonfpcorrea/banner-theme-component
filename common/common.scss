@@ -1,6 +1,7 @@
 #simple-top-banner {
+  display: grid;
+  place-items: center;
   min-height: $bannerHeight;
-  position: sticky;
   background: $bgColor;
   font-style: $fontStyle;
   font-weight: $fontWeight;
@@ -24,5 +25,6 @@
     font: inherit;
     position: absolute;
     right: 10px;
+    top: 50%;
   }
 }
