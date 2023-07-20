@@ -1,6 +1,6 @@
 #simple-top-banner {
   background: $bgColor;
-  width: 100vw;
+  min-width: 100%;
 }
 
 #simple-top-banner-inner-wrap {
@@ -14,7 +14,7 @@
   min-height: $bannerHeight;
   font-size: $fontSize;
   gap: 0.5rem;
-  width: 100%;
+  max-width: var(--d-max-width);
 
   a {
     text-decoration: none;
