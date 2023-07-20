@@ -20,11 +20,12 @@
   }
 
   #simple-top-banner__close-btn {
+    display: grid;
+    place-items: center;
     background: none;
     border: none;
     font: inherit;
     position: absolute;
-    height: fit-content;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
