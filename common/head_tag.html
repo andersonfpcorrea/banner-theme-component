@@ -12,8 +12,7 @@
 
 
   function reziseWidth() {
-    const mainWrapperWidth = window.getComputedStyle(discourseMainOutletWrapper).width;
-    simpleTopBannerInnerWrap.style.setProperty("width", mainWrapperWidth);
+    simpleTopBannerInnerWrap.style.width = window.getComputedStyle(discourseMainOutletWrapper).width;
   }
 
   const resizeObserver = new ResizeObserver(reziseWidth);
