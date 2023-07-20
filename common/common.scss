@@ -1,14 +1,12 @@
 #simple-top-banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5rem;
   min-height: $bannerHeight;
   position: sticky;
   background: $bgColor;
   font-style: $fontStyle;
   font-weight: $fontWeight;
   font-size: $fontSize;
+  text-align: center;
+  position: relative;
 
   a {
     color: inherit;
@@ -24,5 +22,7 @@
     background: none;
     border: none;
     font: inherit;
+    position: absolute;
+    right: 10px;
   }
 }
