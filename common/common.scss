@@ -30,14 +30,14 @@
     top: 50%;
     transform: translateY(-50%);
     transition: all 0.3s;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
   }
 
   #simple-top-banner__close-btn:hover {
     transform: scale(1.1);
     transform: translateY(-50%);
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 50%;
-    height: 1.5rem;
-    width: 1.5rem;
   }
 }
