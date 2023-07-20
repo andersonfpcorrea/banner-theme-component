@@ -1,8 +1,9 @@
 #simple-top-banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+  padding: 0 30vw;
   width: 100%;
   min-height: $bannerHeight;
   position: sticky;
