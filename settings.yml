@@ -17,7 +17,8 @@ fontWeight:
     - 600
     - 700
 link: ""
-bgColor: ""
+bgColor:
+  default: ""
   description: "Add a valid CSS color (eg.: red, blue, rgb(0,0,0), #f0f0f0 etc)"
 bannerHeight:
   default: "2.4rem"
