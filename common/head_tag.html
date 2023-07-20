@@ -10,18 +10,10 @@
   );
   const discourseMainOutletWrapper = document.querySelector("#main-outlet-wrapper");
 
-
-  // function reziseWidth() {
-  //   simpleTopBannerInnerWrap.style.width = window.getComputedStyle(discourseMainOutletWrapper).width;
-  // }
-
-  // const resizeObserver = new ResizeObserver(reziseWidth);
-  // resizeObserver.observe(discourseMainOutletWrapper);
-
-  // simpleTopBannerCloseBtn.addEventListener("click", () => {
-  //   simpleTopBanner.remove();
-  //   resizeObserver.disconnect()
-  // });
+  simpleTopBannerCloseBtn.addEventListener("click", () => {
+    simpleTopBanner.remove();
+    resizeObserver.disconnect()
+  });
 
   simpleTopBannerLink.textContent = settings.text;
   simpleTopBannerLink.href = settings.link;
