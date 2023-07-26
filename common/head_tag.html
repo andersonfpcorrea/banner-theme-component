@@ -15,5 +15,9 @@
 
   simpleTopBannerLink.textContent = settings.text;
   simpleTopBannerLink.href = settings.link;
+
+  if (window.location.href === settings.link) {
+    simpleTopBanner.remove()
+  }
   }
 </script>
